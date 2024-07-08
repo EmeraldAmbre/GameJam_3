@@ -6,29 +6,26 @@ public class PlayerMovement : MonoBehaviour {
 
     [SerializeField] private GameObject m_player;
 
-    [SerializeField] private float speed = 2f;
-    [SerializeField] private float acceleration = 0.1f;
-    [SerializeField] private float jumpForce = 5f;
+    [SerializeField] private float m_speed = 2f;
+    [SerializeField] private float m_acceleration = 0.1f;
+    [SerializeField] private float m_jumpForce = 5f;
 
-    [SerializeField] private Rigidbody2D rb;
+    [SerializeField] private Rigidbody2D m_rigidbody;
 
     void Start()
     {
-        rb = GetComponent<Rigidbody2D>();
+        if (m_rigidbody == null) m_rigidbody = m_player.GetComponent<Rigidbody2D>();
     }
 
-    void Update()
-    {
-        // Accélération du mouvement au fur et à mesure du temps
-        speed += acceleration * Time.deltaTime;
+    void Update() {
 
-        // Appliquer le mouvement horizontal
-        rb.velocity = new Vector2(speed, rb.velocity.y);
+        m_speed += m_acceleration * Time.deltaTime;
 
-        // Vérifier si le bouton de saut est pressé (Espace par défaut)
-        if (Input.GetButtonDown("Jump") && Mathf.Abs(rb.velocity.y) < 0.01f) // Assurez-vous que le personnage est sur le sol
+        m_rigidbody.velocity = new Vector2(m_speed, m_rigidbody.velocity.y);
+
+        if (Input.GetButtonDown("Jump") && Mathf.Abs(m_rigidbody.velocity.y) < 0.01f) // Assurez-vous que le personnage est sur le sol
         {
-            rb.AddForce(new Vector2(0, jumpForce), ForceMode2D.Impulse);
+            m_rigidbody.AddForce(new Vector2(0, m_jumpForce), ForceMode2D.Impulse);
         }
     }
 }
