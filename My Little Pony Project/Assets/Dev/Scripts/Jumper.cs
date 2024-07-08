@@ -14,11 +14,11 @@ public class Jumper : MonoBehaviour
 
         if (((1 << collision.gameObject.layer) & jumpLayer) != 0)
         {
-            Jump();
+            JumpTest();
         }
     }
 
-    private void Jump() {
+    private void JumpTest() {
 
         m_rigidbody.AddForce(new Vector2(0, m_jumpForce), ForceMode2D.Impulse);
 
