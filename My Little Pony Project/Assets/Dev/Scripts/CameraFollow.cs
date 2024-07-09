@@ -8,7 +8,9 @@ public class CameraFollow : MonoBehaviour {
     [SerializeField] private Vector3 m_offset;
 
     void Update() {
-        if (m_player != null) { transform.position = m_player.position + m_offset; }
+
+        if (m_player != null) { transform.position = new Vector3(m_player.position.x, transform.position.y, transform.position.z) + m_offset; }
+
     }
 
 }
