@@ -22,6 +22,7 @@ public class Jumper : MonoBehaviour {
 
         startTimeScale = Time.timeScale;
         startFixedDeltaTime = Time.fixedDeltaTime;
+        _test = false;
 
     }
 
@@ -41,9 +42,8 @@ public class Jumper : MonoBehaviour {
     }
 
     private void Test() {
-
-        TestingDraws testingDraws = new TestingDraws();
-
+        
+        Instantiate(m_testPointer);
         Instantiate(m_pointer);
 
     }

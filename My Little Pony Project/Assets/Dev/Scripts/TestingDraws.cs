@@ -7,44 +7,59 @@ public class TestingDraws : MonoBehaviour {
     [SerializeField] private GameObject m_player;
     [SerializeField] private GameObject m_pencilTip;
     [SerializeField] private LineRenderer m_lineRenderer;
-    [SerializeField] private List<List<Vector3>> m_testMoves;
+    [SerializeField] private List<Vector3> m_testMoves;
 
     [SerializeField] private float m_moveSpeed = 5f;
     [SerializeField] Vector3 m_playerOffset = new(-4.75f, 4.75f, 0);
 
     private List<Vector3> _positions;
+    private Vector3 _target;
 
-    public List<Vector3> _points;
     private int _currentPointIndex = 0;
 
-    public TestingDraws() {
-        
-        int index = Random.Range(0, m_testMoves.Count);
-        _points = m_testMoves[index];
-
-    }
-
     void Start() {
+
+        m_lineRenderer.enabled = true;
+        m_pencilTip.GetComponent<SpriteRenderer>().enabled = true;
+        m_pencilTip.GetComponent<CircleCollider2D>().enabled = true;
 
         m_pencilTip.transform.position = m_player.transform.position + m_playerOffset;
         _positions = new List<Vector3>();
         _positions.Add(m_pencilTip.transform.position);
-        m_lineRenderer.positionCount = 0;
+
+        m_lineRenderer.positionCount = 1;
         m_lineRenderer.SetPosition(0, m_pencilTip.transform.position);
+
+        _target = m_pencilTip.transform.position + m_testMoves[_currentPointIndex];
 
     }
 
     void Update() {
+
+        if (_currentPointIndex == m_testMoves.Count) {
+
+            m_lineRenderer.enabled = false;
+            m_pencilTip.GetComponent<SpriteRenderer>().enabled = false;
+            m_pencilTip.GetComponent<CircleCollider2D>().enabled = false;
+            return;
         
-        if (_currentPointIndex >= _points.Count) return;
+        }
 
-        Vector3 target = _points[_currentPointIndex];
-
-        m_pencilTip.transform.position = Vector3.MoveTowards(m_pencilTip.transform.position, target, m_moveSpeed * Time.deltaTime);
+        m_pencilTip.transform.position = Vector3.MoveTowards(m_pencilTip.transform.position, _target, m_moveSpeed * Time.deltaTime);
 
         AddPointToLineRenderer(m_pencilTip.transform.position);
 
-        if (m_pencilTip.transform.position == target) { _currentPointIndex += 1; }
+        if (m_pencilTip.transform.position == _target) {
+            
+            _currentPointIndex += 1;
+
+            if (m_testMoves.Count > _currentPointIndex) {
+
+                _target = m_pencilTip.transform.position + m_testMoves[_currentPointIndex];
+
+            }
+
+        }
 
     }
 
@@ -54,4 +69,5 @@ public class TestingDraws : MonoBehaviour {
         m_lineRenderer.SetPosition(m_lineRenderer.positionCount - 1, point);
 
     }
+
 }

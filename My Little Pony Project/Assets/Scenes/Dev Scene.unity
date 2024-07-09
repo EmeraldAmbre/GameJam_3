@@ -394,7 +394,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   m_jumpForce: 5
-  m_slowMotionTimeScale: 0.2
+  m_slowMotionTimeScale: 0.1
 --- !u!1 &514792395
 GameObject:
   m_ObjectHideFlags: 0
@@ -625,11 +625,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4990273902358533170, guid: f2f9a3b532e0ee34db8a6b7f429c6696, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -2.503185
+      value: -20
       objectReference: {fileID: 0}
     - target: {fileID: 4990273902358533170, guid: f2f9a3b532e0ee34db8a6b7f429c6696, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.9591924
+      value: -2.5
       objectReference: {fileID: 0}
     - target: {fileID: 4990273902358533170, guid: f2f9a3b532e0ee34db8a6b7f429c6696, type: 3}
       propertyPath: m_LocalPosition.z
@@ -661,6 +661,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4990273902358533170, guid: f2f9a3b532e0ee34db8a6b7f429c6696, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5434245274994017810, guid: f2f9a3b532e0ee34db8a6b7f429c6696, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5434245274994017810, guid: f2f9a3b532e0ee34db8a6b7f429c6696, type: 3}
+      propertyPath: m_LocalPosition.y
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6774651845248410007, guid: f2f9a3b532e0ee34db8a6b7f429c6696, type: 3}
