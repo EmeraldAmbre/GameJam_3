@@ -16,7 +16,7 @@ public class Jumper : MonoBehaviour {
     private float startTimeScale;
     private float startFixedDeltaTime;
 
-    private bool _test;
+    public bool _test;
 
     private void Start() {
 
@@ -26,12 +26,34 @@ public class Jumper : MonoBehaviour {
 
     }
 
+    private void Update() {
+
+        // bool movementsAreSimilar = CompareMovements(scriptA.positionsA, scriptB.positionsB);
+
+    }
+
+    private void FixedUpdate() {
+
+        if (_test) {
+
+            Jump();
+            _test = false;
+        
+        }
+    }
+
     void OnCollisionEnter2D(Collision2D collision) {
 
         if (((1 << collision.gameObject.layer) & jumpLayer) != 0) {
 
-            StartSlowMotion();
-            Jump(); Test();
+            // StartSlowMotion();
+
+            if (_test) {
+
+                Jump();
+                // StopSlowMotion();
+
+            }
         }
     }
 
@@ -41,14 +63,10 @@ public class Jumper : MonoBehaviour {
 
     }
 
-    private void Test() {
-        
-        Instantiate(m_testPointer);
-        Instantiate(m_pointer);
-
-    }
-
-    private void StartSlowMotion() {
+    /*
+     * Slow motions techniques
+     * 
+     * private void StartSlowMotion() {
 
         Time.timeScale = m_slowMotionTimeScale;
         Time.fixedDeltaTime = startFixedDeltaTime * m_slowMotionTimeScale;
@@ -61,5 +79,6 @@ public class Jumper : MonoBehaviour {
         Time.fixedDeltaTime = startFixedDeltaTime;
 
     }
+     */
 
 }

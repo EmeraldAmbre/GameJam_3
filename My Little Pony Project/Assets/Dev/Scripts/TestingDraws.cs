@@ -12,7 +12,7 @@ public class TestingDraws : MonoBehaviour {
     [SerializeField] private float m_moveSpeed = 5f;
     [SerializeField] Vector3 m_playerOffset = new(-4.75f, 4.75f, 0);
 
-    private List<Vector3> _positions;
+    public List<Vector3> _positions;
     private Vector3 _target;
 
     private int _currentPointIndex = 0;
@@ -38,9 +38,6 @@ public class TestingDraws : MonoBehaviour {
 
         if (_currentPointIndex == m_testMoves.Count) {
 
-            m_lineRenderer.enabled = false;
-            m_pencilTip.GetComponent<SpriteRenderer>().enabled = false;
-            m_pencilTip.GetComponent<CircleCollider2D>().enabled = false;
             return;
         
         }

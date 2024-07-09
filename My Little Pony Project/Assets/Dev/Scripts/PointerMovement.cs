@@ -16,7 +16,7 @@ public class PointerMovement : MonoBehaviour {
     [SerializeField] private LineRenderer m_lineRenderer;
     [SerializeField] private List<Vector3> m_points;
 
-    private List<Vector3> _positions;
+    public List<Vector3> _positions;
     private Vector3 _currentPosition;
     private float _angle;
 
