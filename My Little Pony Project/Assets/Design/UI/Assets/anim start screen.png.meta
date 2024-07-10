@@ -1,0 +1,642 @@
+fileFormatVersion: 2
+guid: 9d80b3d350011814489e130624c596ae
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: anim start screen_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2043.3333
+        width: 1024.1111
+        height: 1021.6667
+      alignment: 9
+      pivot: {x: 0.5172418, y: 0.22170278}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3ba337959fdc454fb7dcfc09d129deb
+      internalID: -656793875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim start screen_1
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 2043.3333
+        width: 1024.1111
+        height: 1021.6667
+      alignment: 9
+      pivot: {x: 0.5314315, y: 0.2160114}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad57bc634cf0643459f2ef8de0cd421d
+      internalID: -532578239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim start screen_2
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 2043.3333
+        width: 1024.1111
+        height: 1021.6667
+      alignment: 9
+      pivot: {x: 0.54289436, y: 0.21216816}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4378d4193e75b674b8fc844ed9ba82ee
+      internalID: -1076855859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim start screen_3
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 2043.3333
+        width: 1024.1111
+        height: 1021.6667
+      alignment: 9
+      pivot: {x: 0.55196756, y: 0.20858824}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5859032f6f80dd46800d98b6916c360
+      internalID: 720686149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim start screen_4
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 2043.3333
+        width: 1024.1111
+        height: 1021.6667
+      alignment: 9
+      pivot: {x: 0.5579143, y: 0.20814258}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8517f9357d3d82b4fb3ef97532c438ce
+      internalID: 2131855119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim start screen_5
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 2043.3333
+        width: 1024.1111
+        height: 1021.6667
+      alignment: 9
+      pivot: {x: 0.560354, y: 0.20734899}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f203de915926d4ab066de03016b255
+      internalID: -1379603524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim start screen_6
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 2043.3333
+        width: 1024.1111
+        height: 1021.6667
+      alignment: 9
+      pivot: {x: 0.55698454, y: 0.2087259}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be09e45029559945a76312ff606d1f2
+      internalID: 1644446772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim start screen_7
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 2043.3333
+        width: 1024.1111
+        height: 1021.6667
+      alignment: 9
+      pivot: {x: 0.5515878, y: 0.20841786}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b770559061d6047916b9cbc82d197d
+      internalID: -491221656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim start screen_8
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 2043.3333
+        width: 1024.1111
+        height: 1021.6667
+      alignment: 9
+      pivot: {x: 0.54203826, y: 0.2122408}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb22aa49a7644e540b301ee4460dd073
+      internalID: 1590649224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim start screen_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1022.3333
+        width: 1024.1111
+        height: 1021.6667
+      alignment: 9
+      pivot: {x: 0.53205645, y: 0.21372016}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df936d97c3d6434590d7426bbadb005
+      internalID: 1642136369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim start screen_10
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1022.3333
+        width: 1024.1111
+        height: 1021.6667
+      alignment: 9
+      pivot: {x: 0.5177951, y: 0.22357464}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 978fb275fafe9054e9f658d27b34a387
+      internalID: -879112997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim start screen_11
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1022.3333
+        width: 1024.1111
+        height: 1021.6667
+      alignment: 9
+      pivot: {x: 0.4998006, y: 0.22240217}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f7fccf4f54cd9445a9b8b046536ff95
+      internalID: -705111400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim start screen_12
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1022.3333
+        width: 1024.1111
+        height: 1021.6667
+      alignment: 9
+      pivot: {x: 0.48571348, y: 0.21339566}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c3ac6a2592b0c47b3453682c38d8de
+      internalID: 1926001994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim start screen_13
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 1022.3333
+        width: 1024.1111
+        height: 1021.6667
+      alignment: 9
+      pivot: {x: 0.47331873, y: 0.20972829}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb685eb70e03e548a4b7850356ca79b
+      internalID: -1831453884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim start screen_14
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 1022.3333
+        width: 1024.1111
+        height: 1021.6667
+      alignment: 9
+      pivot: {x: 0.46415967, y: 0.21282202}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6cc754bd8e59e946a1cd5f7f6a16453
+      internalID: -1049078305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim start screen_15
+      rect:
+        serializedVersion: 2
+        x: 6144
+        y: 1022.3333
+        width: 1024.1111
+        height: 1021.6667
+      alignment: 9
+      pivot: {x: 0.45868427, y: 0.2081565}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b99a03aac3eb74244ab3d8fbfb2643ac
+      internalID: 1144758264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim start screen_16
+      rect:
+        serializedVersion: 2
+        x: 7168
+        y: 1022.3333
+        width: 1024.1111
+        height: 1021.6667
+      alignment: 9
+      pivot: {x: 0.45500016, y: 0.20675929}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba856dd164e91cd45b79ce969a122715
+      internalID: -510824631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim start screen_17
+      rect:
+        serializedVersion: 2
+        x: 8192
+        y: 1022.3333
+        width: 1024.1111
+        height: 1021.6667
+      alignment: 9
+      pivot: {x: 0.4548514, y: 0.20598601}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7ecb246de936346a1f9426e0d3abb3
+      internalID: 443535781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim start screen_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.333313
+        width: 1024.1111
+        height: 1021.6667
+      alignment: 9
+      pivot: {x: 0.45366642, y: 0.20223047}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44a42058167b11242bda00c0658d4789
+      internalID: -1387578607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim start screen_19
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 1.333313
+        width: 1024.1111
+        height: 1021.6667
+      alignment: 9
+      pivot: {x: 0.4593196, y: 0.20717023}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3924de52eadf90d43b2bbfe142cd313c
+      internalID: 1370910234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim start screen_20
+      rect:
+        serializedVersion: 2
+        x: 2048
+        y: 1.333313
+        width: 1024.1111
+        height: 1021.6667
+      alignment: 9
+      pivot: {x: 0.4638734, y: 0.20685546}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 548dcb25d1b7b2f41aff05ca05d88b79
+      internalID: -972249927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim start screen_21
+      rect:
+        serializedVersion: 2
+        x: 3072
+        y: 1.333313
+        width: 1024.1111
+        height: 1021.6667
+      alignment: 9
+      pivot: {x: 0.47327033, y: 0.20902267}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d278a9551df5dfa408587778b6e68a54
+      internalID: 1622439987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim start screen_22
+      rect:
+        serializedVersion: 2
+        x: 4096
+        y: 1.333313
+        width: 1024.1111
+        height: 1021.6667
+      alignment: 9
+      pivot: {x: 0.48550537, y: 0.21324822}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42a3f255ac2d792479bf72e51f493ae9
+      internalID: 1296772268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: anim start screen_23
+      rect:
+        serializedVersion: 2
+        x: 5120
+        y: 1.333313
+        width: 1024.1111
+        height: 1021.6667
+      alignment: 9
+      pivot: {x: 0.5007606, y: 0.2271232}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a369fd95087cd440a1d7aed89e09aaf
+      internalID: -79259370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      anim start screen_0: -656793875
+      anim start screen_1: -532578239
+      anim start screen_10: -879112997
+      anim start screen_11: -705111400
+      anim start screen_12: 1926001994
+      anim start screen_13: -1831453884
+      anim start screen_14: -1049078305
+      anim start screen_15: 1144758264
+      anim start screen_16: -510824631
+      anim start screen_17: 443535781
+      anim start screen_18: -1387578607
+      anim start screen_19: 1370910234
+      anim start screen_2: -1076855859
+      anim start screen_20: -972249927
+      anim start screen_21: 1622439987
+      anim start screen_22: 1296772268
+      anim start screen_23: -79259370
+      anim start screen_3: 720686149
+      anim start screen_4: 2131855119
+      anim start screen_5: -1379603524
+      anim start screen_6: 1644446772
+      anim start screen_7: -491221656
+      anim start screen_8: 1590649224
+      anim start screen_9: 1642136369
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
