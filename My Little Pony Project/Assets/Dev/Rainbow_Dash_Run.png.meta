@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3c860a85d0db6644eb82b1f9e1b32037
+guid: 20238826822dd7c45a123d13ffb53d7b
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -81,7 +81,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Standalone
+    buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -94,7 +94,7 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: Server
+    buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
@@ -108,175 +108,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: Rainbow_Dash_Run_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1200
-        width: 600
-        height: 600
-      alignment: 9
-      pivot: {x: 0.6357088, y: 0.37128642}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d046b904f9a9ccc41a6cc12edd63abec
-      internalID: 1389905486
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rainbow_Dash_Run_1
-      rect:
-        serializedVersion: 2
-        x: 600
-        y: 1200
-        width: 600
-        height: 600
-      alignment: 9
-      pivot: {x: 0.62591535, y: 0.3656901}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4fff9e1f11498204caa271e155330c49
-      internalID: -1289931284
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rainbow_Dash_Run_2
-      rect:
-        serializedVersion: 2
-        x: 1200
-        y: 1200
-        width: 600
-        height: 600
-      alignment: 9
-      pivot: {x: 0.6231171, y: 0.3754836}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ab778bdcdf7462a4880b9ae50a96ad1d
-      internalID: -676781841
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rainbow_Dash_Run_3
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 600
-        width: 600
-        height: 600
-      alignment: 9
-      pivot: {x: 0.6177552, y: 0.36990815}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e9c7ea2e47fa02241912f10661a70a75
-      internalID: -1123175927
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rainbow_Dash_Run_4
-      rect:
-        serializedVersion: 2
-        x: 600
-        y: 600
-        width: 600
-        height: 600
-      alignment: 9
-      pivot: {x: 0.61891997, y: 0.37128642}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 432b4ee21aee9e74bbc05e80314ad90a
-      internalID: 827825185
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rainbow_Dash_Run_5
-      rect:
-        serializedVersion: 2
-        x: 1200
-        y: 600
-        width: 600
-        height: 600
-      alignment: 9
-      pivot: {x: 0.624516, y: 0.37128642}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 1702dffaebdbae94ba889e56845b51e7
-      internalID: 1233512276
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rainbow_Dash_Run_6
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 0
-        width: 600
-        height: 600
-      alignment: 9
-      pivot: {x: 0.6287135, y: 0.3698874}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: f6d0e7382513c5e439214ed7f12aba49
-      internalID: 873007305
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Rainbow_Dash_Run_7
-      rect:
-        serializedVersion: 2
-        x: 600
-        y: 0
-        width: 600
-        height: 600
-      alignment: 9
-      pivot: {x: 0.63291055, y: 0.3642912}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 38b52df1136b4664f82c226a0c19c0de
-      internalID: -993858275
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
+    sprites: []
     outline: []
     physicsShape: []
     bones: []
@@ -287,15 +119,7 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      Rainbow_Dash_Run_0: 1389905486
-      Rainbow_Dash_Run_1: -1289931284
-      Rainbow_Dash_Run_2: -676781841
-      Rainbow_Dash_Run_3: -1123175927
-      Rainbow_Dash_Run_4: 827825185
-      Rainbow_Dash_Run_5: 1233512276
-      Rainbow_Dash_Run_6: 873007305
-      Rainbow_Dash_Run_7: -993858275
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
