@@ -6,7 +6,7 @@ public class SymbolSpawner : MonoBehaviour {
 
     [SerializeField] private List<GameObject> m_symbols;
     [SerializeField] private float m_spawnRate = 2f;
-    [SerializeField] private float m_spawnHeight = 5f; // Hauteur de génération
+    [SerializeField] private float m_spawnHeight = 5f;
 
     private float nextSpawn = 0f;
 
