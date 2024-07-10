@@ -750,5 +750,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_nbOfindexToSucceed: 2
-  _jumpForce: 5
+  _jumpForce: 10
   _rigidbody: {fileID: 0}

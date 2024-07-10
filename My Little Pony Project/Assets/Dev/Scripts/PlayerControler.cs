@@ -4,20 +4,12 @@ using UnityEngine;
 
 public class PlayerControler : MonoBehaviour {
 
-    public bool canJump;
-
-    [SerializeField] private float _jumpForce = 5f;
-    [SerializeField] private Rigidbody2D _rigidbody;
+    [SerializeField] Rigidbody2D _playerRigidbody;
+    [SerializeField] SpriteRenderer _playerSpriteRenderer;
+    [SerializeField] BoxCollider2D _playerCollider;
     
-    void Update()
-    {
-        if (canJump)
-        {
-            Jump();
-            canJump = false;
-        }
-    }
+    void Update() {
 
-    private void Jump() { _rigidbody.AddForce(new Vector2(0, _jumpForce), ForceMode2D.Impulse); }
+    }
 
 }
