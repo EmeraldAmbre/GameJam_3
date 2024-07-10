@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: b1f4f6a0f0b20c244908f6d909042af1
+guid: 988d4cd04a1c82e46bf128120dbd341c
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -81,19 +81,6 @@ TextureImporter:
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -110,13 +97,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Sans titre-1_0
+      name: Rainbow_Dash_Jump_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 432
-        width: 216
-        height: 216
+        y: 1200
+        width: 600
+        height: 600
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 985d26d2f34f68c4181728e42a613d20
-      internalID: 315382597
+      spriteID: 6dbbc4962a6ffbf4fba711e1b272b0a2
+      internalID: -1446178308
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sans titre-1_1
+      name: Rainbow_Dash_Jump_1
       rect:
         serializedVersion: 2
-        x: 216
-        y: 432
-        width: 216
-        height: 216
+        x: 600
+        y: 1200
+        width: 600
+        height: 600
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 904b8221d6ee451459389d2d9a386d3b
-      internalID: 1658346848
+      spriteID: 70795ea465eff5241bde0eeec48ac800
+      internalID: -1687146124
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sans titre-1_2
+      name: Rainbow_Dash_Jump_2
       rect:
         serializedVersion: 2
-        x: 432
-        y: 432
-        width: 216
-        height: 216
+        x: 1200
+        y: 1200
+        width: 600
+        height: 600
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 878ce915ede38094e971a13dd8f473f7
-      internalID: 887605469
+      spriteID: 1f47899006685be478c4ec6fe7ff9771
+      internalID: -495976872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sans titre-1_3
+      name: Rainbow_Dash_Jump_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 216
-        width: 216
-        height: 216
+        y: 600
+        width: 600
+        height: 600
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +174,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 612ce7e64c93b7840b9ff101bf935ca7
-      internalID: 624895169
+      spriteID: b51f1040cc9e48348a3120a86c24dd41
+      internalID: -1919832747
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sans titre-1_4
+      name: Rainbow_Dash_Jump_4
       rect:
         serializedVersion: 2
-        x: 216
-        y: 216
-        width: 216
-        height: 216
+        x: 600
+        y: 600
+        width: 600
+        height: 600
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,20 +195,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ade396e202774244787574081aadb596
-      internalID: 2006545800
+      spriteID: 3127c46b8810c7442959eb15fdff1c2c
+      internalID: 1641408306
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sans titre-1_5
+      name: Rainbow_Dash_Jump_5
       rect:
         serializedVersion: 2
-        x: 432
-        y: 216
-        width: 216
-        height: 216
+        x: 1200
+        y: 600
+        width: 600
+        height: 600
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,20 +216,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 39fe2112a22712a41aa66f0d5e04203c
-      internalID: 1765668317
+      spriteID: a00bb637c32c74e4193d638c2e2ba33b
+      internalID: -1483840599
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sans titre-1_6
+      name: Rainbow_Dash_Jump_6
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 216
-        height: 216
+        width: 600
+        height: 600
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,20 +237,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b226a57688f885a44b0533ab0f89cde1
-      internalID: 1343549683
+      spriteID: 6ecead670916bd4459110ae9d6ce5820
+      internalID: -400880134
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Sans titre-1_7
+      name: Rainbow_Dash_Jump_7
       rect:
         serializedVersion: 2
-        x: 216
+        x: 600
         y: 0
-        width: 216
-        height: 216
+        width: 600
+        height: 600
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,8 +258,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5828f0e12c870e4fa606e8410c65d90
-      internalID: 610187680
+      spriteID: 0aa48c047c670ec40888d94f52919893
+      internalID: -1368786214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rainbow_Dash_Jump_8
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 600
+        height: 600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79f7da80a86889a4cb53228575134695
+      internalID: 1352651274
       vertices: []
       indices: 
       edges: []
@@ -288,14 +296,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Sans titre-1_0: 315382597
-      Sans titre-1_1: 1658346848
-      Sans titre-1_2: 887605469
-      Sans titre-1_3: 624895169
-      Sans titre-1_4: 2006545800
-      Sans titre-1_5: 1765668317
-      Sans titre-1_6: 1343549683
-      Sans titre-1_7: 610187680
+      Rainbow_Dash_Jump_0: -1446178308
+      Rainbow_Dash_Jump_1: -1687146124
+      Rainbow_Dash_Jump_2: -495976872
+      Rainbow_Dash_Jump_3: -1919832747
+      Rainbow_Dash_Jump_4: 1641408306
+      Rainbow_Dash_Jump_5: -1483840599
+      Rainbow_Dash_Jump_6: -400880134
+      Rainbow_Dash_Jump_7: -1368786214
+      Rainbow_Dash_Jump_8: 1352651274
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
