@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 8389361190592727197}
   - component: {fileID: 4546237993413591950}
   - component: {fileID: 2796245182590945481}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -75,7 +75,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 15
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -148,7 +148,7 @@ GameObject:
   - component: {fileID: 8867577648616276959}
   - component: {fileID: 4502184308880926339}
   - component: {fileID: 8688357424070238909}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -211,7 +211,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 15
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -283,7 +283,7 @@ GameObject:
   - component: {fileID: 2483532817103814199}
   - component: {fileID: 7812576437325898809}
   - component: {fileID: 7472919711040631013}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -453,7 +453,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7372414061823122496}
   - component: {fileID: 7013541587644939225}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Rune 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -470,7 +470,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -3, y: -0.65, z: 0}
-  m_LocalScale: {x: 0.85, y: 0.85, z: 0.85}
+  m_LocalScale: {x: 0.6, y: 0.6, z: 0.6}
   m_ConstrainProportionsScale: 1
   m_Children:
   - {fileID: 4053072206388665567}
@@ -497,7 +497,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_nbOfindexToSucceed: 4
-  _jumpForce: 10
+  _jumpForce: 12
   _rigidbody: {fileID: 0}
 --- !u!1 &4503841903147269748
 GameObject:
@@ -510,7 +510,7 @@ GameObject:
   - component: {fileID: 6347459921695253726}
   - component: {fileID: 1942976438475269362}
   - component: {fileID: 3141242035178710276}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -684,7 +684,7 @@ GameObject:
   - component: {fileID: 8517413051892950154}
   - component: {fileID: 5019437021070102540}
   - component: {fileID: 936442076733911738}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -747,7 +747,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 15
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -818,7 +818,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7231921164175948203}
   - component: {fileID: 1454546159017185571}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Rune4@2x
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -880,7 +880,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 7f3a9bd577a36d840accd56ef8adaf69, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -904,7 +904,7 @@ GameObject:
   - component: {fileID: 701527877947326121}
   - component: {fileID: 2185512795848200127}
   - component: {fileID: 1428265623368301793}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Circle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -967,7 +967,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 15
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1039,7 +1039,7 @@ GameObject:
   - component: {fileID: 8643825688603050049}
   - component: {fileID: 2924568417078239791}
   - component: {fileID: 3071909545491355305}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1212,7 +1212,7 @@ GameObject:
   - component: {fileID: 5150652048194322696}
   - component: {fileID: 5809739326451476583}
   - component: {fileID: 5152099500247821396}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1424,9 +1424,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Number2@2x
       objectReference: {fileID: 0}
+    - target: {fileID: 3421332484025747534, guid: 40749bcf65df7054d9ab509bc956bec8, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 9107623198495751921, guid: 40749bcf65df7054d9ab509bc956bec8, type: 3}
       propertyPath: m_SortingOrder
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1488,11 +1492,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1107938626287245049, guid: fc59f39a376a4574d8dfd5656f0fc88b, type: 3}
       propertyPath: m_SortingOrder
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6581635586090059175, guid: fc59f39a376a4574d8dfd5656f0fc88b, type: 3}
       propertyPath: m_Name
       value: Number4@2x
+      objectReference: {fileID: 0}
+    - target: {fileID: 6581635586090059175, guid: fc59f39a376a4574d8dfd5656f0fc88b, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1552,9 +1560,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3392402441056335499, guid: 1271fde98d985b64e96e3d96b8592596, type: 3}
+      propertyPath: m_SortingOrder
+      value: 20
+      objectReference: {fileID: 0}
     - target: {fileID: 4254140390184976992, guid: 1271fde98d985b64e96e3d96b8592596, type: 3}
       propertyPath: m_Name
       value: Number1@2x
+      objectReference: {fileID: 0}
+    - target: {fileID: 4254140390184976992, guid: 1271fde98d985b64e96e3d96b8592596, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1577,6 +1593,10 @@ PrefabInstance:
     - target: {fileID: 358868416449795892, guid: 4d3ee8e49c2a125418f1f536e8792769, type: 3}
       propertyPath: m_Name
       value: Number3@2x
+      objectReference: {fileID: 0}
+    - target: {fileID: 358868416449795892, guid: 4d3ee8e49c2a125418f1f536e8792769, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2077478896695029477, guid: 4d3ee8e49c2a125418f1f536e8792769, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1620,7 +1640,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7128760197675891647, guid: 4d3ee8e49c2a125418f1f536e8792769, type: 3}
       propertyPath: m_SortingOrder
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

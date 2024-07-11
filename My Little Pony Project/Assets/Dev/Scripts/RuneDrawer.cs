@@ -35,5 +35,5 @@ public class RuneDrawer : MonoBehaviour
         Debug.Log("ValidateDraw");
     }
 
-    private void Jump() { _rigidbody.AddForce(new Vector2(0, _jumpForce), ForceMode2D.Impulse); }
+    private void Jump() { _rigidbody.velocity = new Vector2(_rigidbody.velocity.x, _jumpForce); }
 }

@@ -15,6 +15,8 @@ public class Spawner : MonoBehaviour
             rune.SetActive(false);
         }
 
+        _runes[0].SetActive(true);
+
         // Commencer la coroutine pour alterner les objets
         StartCoroutine(SwitchActiveObject());
     }
@@ -25,6 +27,8 @@ public class Spawner : MonoBehaviour
         {
             // Attendre pendant l'intervalle spécifié
             yield return new WaitForSeconds(_switchInterval);
+
+            _runes[0].SetActive(false);
 
             // Désactiver l'objet actuellement actif
             if (currentActiveIndex >= 0 && currentActiveIndex < _runes.Count)
