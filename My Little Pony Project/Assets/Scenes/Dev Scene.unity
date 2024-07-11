@@ -1978,7 +1978,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_player: {fileID: 1041144161}
-  m_offset: {x: 7.5, y: 0, z: 0}
+  m_offset: {x: 5, y: 0, z: 0}
 --- !u!1 &529688066
 GameObject:
   m_ObjectHideFlags: 0
@@ -7715,7 +7715,7 @@ MonoBehaviour:
   - {fileID: 2051127022}
   - {fileID: 1037276373}
   - {fileID: 1812729661}
-  _switchInterval: 8
+  _switchInterval: 3
 --- !u!1 &1803109808
 GameObject:
   m_ObjectHideFlags: 0
