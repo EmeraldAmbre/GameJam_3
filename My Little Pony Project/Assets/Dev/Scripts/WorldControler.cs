@@ -9,5 +9,7 @@ public class WorldControler : MonoBehaviour
     private void Update()
     {
         transform.position += Vector3.left * m_moveSpeed * Time.deltaTime;
+
+        if (transform.position.x <= -56.2f) { transform.Translate(new Vector3(108.6f, 0, 0)); }
     }
 }
